@@ -1,1 +1,1 @@
-FROM quay.io/strimzi/kafka:0.26.0-kafka-3.0.0
+FROM quay.io/strimzi/operator:0.26.0
