@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.2.3
+FROM quay.io/strimzi/kafka:0.26.0-kafka-3.0.0
