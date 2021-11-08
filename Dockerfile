@@ -1,1 +1,1 @@
-FROM quay.io/strimzi/kafka-bridge:0.20.3
+FROM quay.io/strimzi/kaniko-executor:0.26.0
