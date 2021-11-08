@@ -1,1 +1,1 @@
-FROM quay.io/strimzi/operator:0.26.0
+FROM quay.io/strimzi/jmxtrans:0.26.0
