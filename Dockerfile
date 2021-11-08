@@ -1,1 +1,1 @@
-FROM quay.io/strimzi/kaniko-executor:0.26.0
+FROM quay.io/strimzi/maven-builder:0.26.0
