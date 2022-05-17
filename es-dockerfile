@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:8.2.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.13.3
 MAINTAINER gaoweicong  gaoweicong@cestc.cn
 RUN rm -rf /etc/localtime && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' > /etc/timezone
