@@ -1,6 +1,6 @@
 FROM python:3.6.15-buster
 WORKDIR /opt/face
-RUN apt-get update && apt-get install -y build-essential && apt-get install -y cmake
+RUN apt-get update && apt-get install -y build-essential && apt-get install -y cmake && apt-get -y install fontconfig && apt-get -y install mkfontscale
 RUN python -m pip install --upgrade pip
 RUN pip install anyio==3.6.1
 RUN pip install asgiref==3.4.1
