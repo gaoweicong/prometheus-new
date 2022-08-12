@@ -1,4 +1,4 @@
-FROM python:3.6.15-slim-buster
+FROM python:3.6.15-buster
 WORKDIR /opt/face
 RUN apt-get update && apt-get install -y build-essential && apt-get install -y cmake
 RUN python -m pip install --upgrade pip
