@@ -15,7 +15,7 @@ RUN pip install contextlib2==21.6.0
 RUN pip install contextvars==2.4
 RUN pip install dataclasses==0.8
 RUN pip install decorator==5.1.1
-RUN pip install dlib==19.8.1
+RUN pip install dlib
 RUN pip install face-recognition==1.3.0
 RUN pip install face-recognition-models==0.3.0
 RUN pip install fastapi==0.79.0
