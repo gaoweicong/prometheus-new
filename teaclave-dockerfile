@@ -1,0 +1,1 @@
+FROM teaclave/teaclave-java-tee-sdk:v0.1.0-ubuntu18.04
